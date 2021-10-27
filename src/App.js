@@ -8,6 +8,7 @@ import './App.css'
 const App = () => {
     return (
         <div className="app">
+            {console.log(process.env.RAPIDAPI_KEY)}
             <div className="navbar">
                 <Navbar2 />
             </div>
